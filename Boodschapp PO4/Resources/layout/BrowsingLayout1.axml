@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="#fff2f2f2">
+<!--  <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_marginBottom="0dp"
+        android:background="#fff2f2f2">
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@android:color/darker_gray"
+            android:id="@+id/button1" />
+        <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@android:color/darker_gray" />
+    </LinearLayout>-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="8">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#ff00779b" />
+        <ImageView
+            android:src="@drawable/BrowseItem"
+            android:id="@+id/BrowseImageView"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:background="#ff00779b"
+            android:gravity="center" />
+    <!--<TextView
+            android:text="Producten zoeken"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:id="@+id/BrowseTextView"
+            android:background="#ff00779b"
+            android:gravity="center" />-->
+        <ImageView
+            android:src="@drawable/ListItem"
+            android:id="@+id/ListImageView"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:background="#ff00779b"
+            android:gravity="center" />
+    <!--<TextView
+            android:text="Lijst"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:id="@+id/ListTextView"
+            android:background="#ff50c5f9"
+            android:gravity="center" />-->
+        <ImageView
+            android:src="@drawable/HelpItem"
+            android:id="@+id/HelpImageView"
+            android:padding="7dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#ff00779b"
+            android:gravity="center" />
+    <!--<TextView
+            android:text="info?"
+            android:textColor="#ff5a5a5a"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:id="@+id/InfoTextView"
+            android:background="#ffffffff"
+            android:gravity="center" />-->
+    </GridLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90" />
+</LinearLayout>

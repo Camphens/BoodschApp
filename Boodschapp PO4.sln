@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boodschapp PO4", "Boodschapp PO4\Boodschapp PO4.csproj", "{72BA0F8C-7C2F-4B6B-BB7C-92078EE1E048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72BA0F8C-7C2F-4B6B-BB7C-92078EE1E048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BA0F8C-7C2F-4B6B-BB7C-92078EE1E048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BA0F8C-7C2F-4B6B-BB7C-92078EE1E048}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{72BA0F8C-7C2F-4B6B-BB7C-92078EE1E048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BA0F8C-7C2F-4B6B-BB7C-92078EE1E048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BA0F8C-7C2F-4B6B-BB7C-92078EE1E048}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {774E2FE4-9AB2-46E1-981E-2EC9D7B6133D}
+	EndGlobalSection
+EndGlobal

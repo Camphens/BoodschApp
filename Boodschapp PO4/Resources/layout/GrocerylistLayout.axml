@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:windowSoftInputMode="stateAlwaysHidden">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="8">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#ff00779b" />
+        <ImageView
+            android:src="@drawable/BrowseItem"
+            android:id="@+id/BrowseImageView"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:background="#ff00779b"
+            android:gravity="center" />
+        <ImageView
+            android:src="@drawable/ListItem"
+            android:id="@+id/ListImageView"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:background="#ff00779b"
+            android:gravity="center" />
+        <ImageView
+            android:src="@drawable/HelpItem"
+            android:id="@+id/HelpImageView"
+            android:padding="7dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#ff00779b"
+            android:gravity="center" />
+    </GridLayout>
+<!--<GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="7">
+        <TextView
+            android:text="Producten zoeken"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:id="@+id/button3"
+            android:background="#ff00779b"
+            android:gravity="center" />
+        <TextView
+            android:text="Lijst"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:id="@+id/button4"
+            android:background="#ff50c5f9"
+            android:gravity="center" />
+        <TextView
+            android:text="info?"
+            android:textColor="#ff5a5a5a"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:id="@+id/explain"
+            android:background="#ffffffff"
+            android:gravity="center" />
+    </GridLayout>-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:orientation="horizontal"
+        android:rowCount="12"
+        android:columnCount="5"
+        android:background="#F6BE71">
+        <ListView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="10"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="5"
+            android:id="@+id/mylistView"
+            android:divider="#fff77800"
+            android:dividerHeight="0dp"
+            app:backgroundTint="#ff821d1d"
+            android:background="#fff2f2f2" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:id="@+id/editText1"
+            android:minWidth="0dp"
+            android:maxWidth="0dp"
+            android:minHeight="0dp"
+            android:maxHeight="0dp"
+            android:paddingLeft="20dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:textColor="#ffffffff"
+            android:hint="Type hier uw producten..."
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp"
+            android:singleLine="true"
+            android:background="#ff00779b" />
+    </GridLayout>
+</LinearLayout>

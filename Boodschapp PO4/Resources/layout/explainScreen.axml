@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:windowSoftInputMode="stateAlwaysHidden"
+    android:weightSum="100">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="8">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#ff00779b" />
+        <ImageView
+            android:src="@drawable/BrowseItem"
+            android:id="@+id/BrowseImageView"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:background="#ff00779b"
+            android:gravity="center" />
+        <ImageView
+            android:src="@drawable/ListItem"
+            android:id="@+id/ListImageView"
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:background="#ff00779b"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#ff00779b" />
+    </GridLayout>
+<!--<GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:rowCount="1"
+        android:columnCount="6">
+        <TextView
+            android:text="Producten zoeken"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:id="@+id/button12"
+            android:background="#ff00779b"
+            android:gravity="center" />
+        <TextView
+            android:text="Lijst"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="3"
+            android:id="@+id/button22"
+            android:background="#ff50c5f9"
+            android:gravity="center" />
+    </GridLayout>-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:orientation="horizontal"
+        android:rowCount="10"
+        android:columnCount="5"
+        android:background="#FFFFFF">
+    <!-- <TextView
+            android:text="Algemene uitleg"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView1"
+            android:layout_margin="20px"
+            android:textColor="#ff107cad" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="5"
+            android:id="@+id/uitleg"
+            android:divider="#fff77800"
+            android:dividerHeight="0dp"
+            android:text="Deze app biedt de mogelijkheid complete gerechten te selecteren, en de benodigde items die nodig zijn dit gerecht te maken, met de klik van één knop toe te voegen aan uw boodschappenlijst."
+            android:layout_margin="20px" />-->
+        <TextView
+            android:text="Items toevoegen"
+            android:id="@+id/textView1"
+            android:layout_margin="20px"
+            android:textColor="#ff107cad" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="5"
+            android:id="@+id/uitleg"
+            android:divider="#fff77800"
+            android:dividerHeight="0dp"
+            android:text="Selecteer de producten zodat deze groen worden. Nadat u uw selectie heeft gemaakt, kunt u op de toevoeg knop klikken om alle groene producten toe te voegen aan uw lijst. "
+            android:layout_margin="20px" />
+        <TextView
+            android:text="Handmatig items toevoegen of verwijderen"
+            android:id="@+id/textView1"
+            android:layout_margin="20px"
+            android:textColor="#ff107cad" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_columnSpan="5"
+            android:id="@+id/uitleg"
+            android:divider="#fff77800"
+            android:dividerHeight="0dp"
+            android:text="Naast het automatisch laten toevoegen aan de lijst, kunt u ook handmatig in de lijst zelf producten toevoegen door simpelweg een product in te toetsen. Verwijderen kan door op het kruisje naast de producten te klikken."
+            android:layout_margin="20px" />
+    </GridLayout>
+</LinearLayout>
